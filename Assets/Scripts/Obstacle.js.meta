@@ -37,19 +37,17 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - renderMeshVisual: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
-      boxCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      pathPoints: !<reference.SceneObject[]>
+    - pathPoints: !<reference.SceneObject[]>
         []
       foodPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       foodCount: 10
       spawnFoodOnAwake: false
       radius: !<float> 5.000000
       shouldSpawnInVolume: false
-      centerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      minBound: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      maxBound: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      spawnVolume: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnVolume: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

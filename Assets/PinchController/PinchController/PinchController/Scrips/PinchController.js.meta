@@ -42,26 +42,23 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - thumbTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thumbTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       indexTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       pinchEnter: !<float> 0.000000
       pinchExit: !<float> 0.000000
-      gizmo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      target: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       minDistance: !<float> 0.000000
       maxDistance: !<float> 0.000000
-      gizmos: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      gizmoTransforms: !<RequiredType.Transform[]>
-        []
-      spellType: !<string> 0
-      controlType: !<string> 0
-      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      controlType: 0
       originType: !<string> 0
-      lostTrackingTimer: !<float> 2.000000
-      objectTracker: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
       space: 0
+      objectTracker: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      lostTrackingTimer: !<float> 2.000000
       gizmoRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

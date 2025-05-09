@@ -36,7 +36,7 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - container: !<MappingBased.ContainerFrame> 00000000-0000-0000-0000-000000000000
+    - container: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
       gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       settingsMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       playButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -46,9 +46,12 @@
     -
       {}
   InputLines:
-    - // @input ContainerFrame container
+    - // @input AssignableType container
     - // @input Component.ScriptComponent gameManager
     - // @input SceneObject settingsMenu
     - // @input SceneObject playButton
     - // @input SceneObject settingsButton
     - // @input SceneObject interactionVisuals
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

@@ -37,20 +37,19 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - boundaryMinimum: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      boundaryMaximum: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      foodPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      food: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       forwardProgression: !<float> 0.000000
-      foodPrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      maxInstances: 256
-      minimumDistance: !<float> 0.000000
-      minimumSpawnDistance: !<float> 0.000000
-      maxChainInstances: 256
+      foodPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       foodChainPrefabs: !<reference.ObjectPrefab[]>
         []
+      foodPrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      maxInstances: 256
+      maxChainInstances: 256
+      minimumSpawnDistance: !<float> 0.000000
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

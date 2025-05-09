@@ -33,11 +33,12 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - textObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       text: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      showScorePopUp: false
-      scoreManager: !<RequiredType.scoreManagerTypeName> 00000000-0000-0000-0000-000000000000
+      scoreManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

@@ -1,7 +1,7 @@
-import {ContainerFrame} from "../../SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame";
+import {ContainerFrame} from "SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame";
 import {GameManager} from "../GameManager_Declaration";
-import {validate} from "../../SpectaclesInteractionKit/Utils/validate";
-import {Interactable} from "../../SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable";
+import {validate} from "SpectaclesInteractionKit/Utils/validate";
+import {Interactable} from "SpectaclesInteractionKit/Components/Interaction/Interactable/Interactable";
 
 @component
 export class UIMainMenu extends BaseScriptComponent {

@@ -34,18 +34,13 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - tweenChainTurnOnEvent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      tweenName: ""
-      rotateTween: !<RequiredType.SceneComponent> 00000000-0000-0000-0000-000000000000
-      collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      Collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      ollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      foodCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      minimumSpawnDistance: !<float> 0.000000
-      test: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - foodCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
       scoreAmount: 0
-      shouldMoveToRandomPosition: false
+      minimumSpawnDistance: !<float> 0.000000
       startScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

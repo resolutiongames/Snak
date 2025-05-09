@@ -37,12 +37,12 @@
   DefaultScriptInputs:
     - tweenName: ""
       foodCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
-      rotateTween: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       scoreAmount: 0
       minimumSpawnDistance: !<float> 0.000000
-      shouldMoveToRandomPosition: false
-      scaleTween: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       startScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

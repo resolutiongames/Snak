@@ -1,8 +1,8 @@
-import {Slider} from "../../SpectaclesInteractionKit/Components/UI/Slider/Slider";
-import { ContainerFrame } from "../../SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame"
+import {Slider} from "SpectaclesInteractionKit/Components/UI/Slider/Slider";
+import { ContainerFrame } from "SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame"
 import { GameManager } from '../GameManager_Declaration';
 import { ScoreManager } from '../ScoreManager_Declaration';
-import {ToggleButton} from "../../SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton";
+import {ToggleButton} from "SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton";
 
 @component
 export class UIGameSettings extends BaseScriptComponent {

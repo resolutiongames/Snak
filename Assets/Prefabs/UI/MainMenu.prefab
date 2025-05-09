@@ -700,7 +700,7 @@
     {}
   ScriptInputs:
     "":
-      container: !<MappingBased.ContainerFrame> 9d15059c-ae01-4247-8dd9-efd4e5e46860
+      container: !<MappingBased.AssignableType> 9d15059c-ae01-4247-8dd9-efd4e5e46860
       gameManager: !<reference.ScriptComponent> ee8ff82e-d714-4a6e-aa22-eb83b2543b9b
       settingsMenu: !<reference.SceneObject> 30aa7fd3-18f9-4658-ad70-7416cda46a38
       playButton: !<reference.SceneObject> 4dca7aca-663b-4d4f-bf7f-b44358a46747
@@ -4711,14 +4711,14 @@
     {}
   ScriptInputs:
     "":
-      container: !<MappingBased.ContainerFrame> 9d15059c-ae01-4247-8dd9-efd4e5e46860
-      backgroundMusicSlider: !<MappingBased.Slider> cb3155bc-373e-4aeb-9b6d-c8659ecca698
+      container: !<MappingBased.AssignableType> 9d15059c-ae01-4247-8dd9-efd4e5e46860
+      backgroundMusicSlider: !<MappingBased.AssignableType_1> cb3155bc-373e-4aeb-9b6d-c8659ecca698
       backgroundMusicVolumeText: !<reference.Text> 8a4c79e0-7a31-4c36-8067-dc71a38713ac
-      sfxMusicSlider: !<MappingBased.Slider> 58e86609-ef39-47ce-9061-4ce46412d177
+      sfxMusicSlider: !<MappingBased.AssignableType_2> 58e86609-ef39-47ce-9061-4ce46412d177
       sfxMusicVolumeText: !<reference.Text> 462532bf-2ce7-4d97-8b30-5d052e62d96d
-      worldCenterSlider: !<MappingBased.Slider> b62ce102-3092-44d0-8a73-96461534ee5d
+      worldCenterSlider: !<MappingBased.AssignableType_3> b62ce102-3092-44d0-8a73-96461534ee5d
       worldCenterSliderText: !<reference.Text> 641dabf1-b55b-43da-8dd7-93af1fdc4780
-      scorePopUpToggle: !<MappingBased.ToggleButton> a198f7c8-3a7c-4cdf-81ac-d263255d9f45
+      scorePopUpToggle: !<MappingBased.AssignableType_4> a198f7c8-3a7c-4cdf-81ac-d263255d9f45
       audioManager: !<Typename.AudioManager> 524a694b-a229-4da7-a59c-8e4e89dbac41
       gameManager: !<reference.ScriptComponent> ee8ff82e-d714-4a6e-aa22-eb83b2543b9b
       scoreManager: !<Typename.ScoreManager> 0ef954bb-60d9-4599-aec2-274b48b143f3
@@ -4921,6 +4921,7 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
+  EnableBatching: false
 - !<SceneObject/d4925dd9-b80e-45da-8de8-c8bee8ac6663>
   PrefabRemaps:
     []
@@ -5696,6 +5697,7 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
+  EnableBatching: false
 - !<ScreenTransform/f4ad7ad8-c644-4d58-b659-2a9fe8f0930a>
   PrefabRemaps:
     []

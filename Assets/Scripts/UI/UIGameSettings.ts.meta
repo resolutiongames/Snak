@@ -43,33 +43,36 @@
     ScoreManager: false
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - backgroundMusicSlider: !<MappingBased.Slider> 00000000-0000-0000-0000-000000000000
+    - container: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      backgroundMusicSlider: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
       backgroundMusicVolumeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      audioManager: !<Typename.CustomComponentExample> 00000000-0000-0000-0000-000000000000
-      sfxMusicSlider: !<MappingBased.Slider> 00000000-0000-0000-0000-000000000000
+      sfxMusicSlider: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
       sfxMusicVolumeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      container: !<MappingBased.ContainerFrame> 00000000-0000-0000-0000-000000000000
-      worldCenterSlider: !<MappingBased.Slider> 00000000-0000-0000-0000-000000000000
+      worldCenterSlider: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
       worldCenterSliderText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      scorePopUpToggle: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      audioManager: !<Typename.AudioManager> 00000000-0000-0000-0000-000000000000
       gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scoreManager: !<Typename.ScoreManager> 00000000-0000-0000-0000-000000000000
       mainMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      scorePopUpToggle: !<MappingBased.ToggleButton> 00000000-0000-0000-0000-000000000000
-      scoreManager: !<MappingBased.ScorePopUp> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     - AudioManager: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
       ScoreManager: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
   InputLines:
-    - // @input ContainerFrame container
-    - // @input Slider backgroundMusicSlider
+    - // @input AssignableType container
+    - // @input AssignableType_1 backgroundMusicSlider
     - // @input Component.Text backgroundMusicVolumeText
-    - // @input Slider sfxMusicSlider
+    - // @input AssignableType_2 sfxMusicSlider
     - // @input Component.Text sfxMusicVolumeText
-    - // @input Slider worldCenterSlider
+    - // @input AssignableType_3 worldCenterSlider
     - // @input Component.Text worldCenterSliderText
-    - // @input ToggleButton scorePopUpToggle
+    - // @input AssignableType_4 scorePopUpToggle
     - // @typename AudioManager
     - // @input AudioManager audioManager
     - // @input Component.ScriptComponent gameManager
     - // @typename ScoreManager
     - // @input ScoreManager scoreManager
     - // @input SceneObject mainMenu
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

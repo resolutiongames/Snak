@@ -35,13 +35,14 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - TweenValue: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-      ScorePrefix: ""
-      highestScoreText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
-      ScoreText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+    - ScorePrefix: ""
       scoreText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      TweenValue: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       minScoreDuration: !<float> 0.000000
       maxScoreDuration: !<float> 0.000000
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

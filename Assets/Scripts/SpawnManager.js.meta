@@ -32,8 +32,11 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - log: false
-      snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      log: false
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

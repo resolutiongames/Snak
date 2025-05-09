@@ -308,6 +308,7 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
+  EnableBatching: false
 - !<ScreenTransform/11214367-8b75-435c-9b70-96abc32914f2>
   PrefabRemaps:
     []
@@ -3690,6 +3691,7 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
+  EnableBatching: false
 - !<ScreenTransform/997783a2-ae64-46ca-8ebf-d9a2d8f2acd0>
   PrefabRemaps:
     []
@@ -5312,7 +5314,7 @@
     {}
   ScriptInputs:
     "":
-      container: !<MappingBased.ContainerFrame> 8a9cea5d-df62-4f78-9f0c-670abfb08cf3
+      container: !<MappingBased.AssignableType> 8a9cea5d-df62-4f78-9f0c-670abfb08cf3
       gameManager: !<reference.ScriptComponent> ee8ff82e-d714-4a6e-aa22-eb83b2543b9b
       settingsMenu: !<reference.SceneObject> d74ce2e2-8dc0-466b-a798-406b9c0b00ca
       playButton: !<reference.SceneObject> 57f66cf5-d9b4-481d-8293-fd5d14291c4f
@@ -6025,14 +6027,14 @@
     {}
   ScriptInputs:
     "":
-      container: !<MappingBased.ContainerFrame> 8a9cea5d-df62-4f78-9f0c-670abfb08cf3
-      backgroundMusicSlider: !<MappingBased.Slider> 5a60e324-1617-424c-bb0c-fa98b952c91a
+      container: !<MappingBased.AssignableType> 8a9cea5d-df62-4f78-9f0c-670abfb08cf3
+      backgroundMusicSlider: !<MappingBased.AssignableType_1> 5a60e324-1617-424c-bb0c-fa98b952c91a
       backgroundMusicVolumeText: !<reference.Text> f69c3086-2cb4-430d-bfdf-e0d106ec711a
-      sfxMusicSlider: !<MappingBased.Slider> 257de1c9-45c1-4fbf-8248-b18dc07f1158
+      sfxMusicSlider: !<MappingBased.AssignableType_2> 257de1c9-45c1-4fbf-8248-b18dc07f1158
       sfxMusicVolumeText: !<reference.Text> 5e94e372-b14a-40cf-b6fa-c4e1f3707a11
-      worldCenterSlider: !<MappingBased.Slider> 122711ef-0a1b-4641-ac2a-e68198b99197
+      worldCenterSlider: !<MappingBased.AssignableType_3> 122711ef-0a1b-4641-ac2a-e68198b99197
       worldCenterSliderText: !<reference.Text> d650d963-5c99-483f-a7ac-bb3d72aab7fd
-      scorePopUpToggle: !<MappingBased.ToggleButton> 17a19f4c-82b7-4111-9fae-59283029f429
+      scorePopUpToggle: !<MappingBased.AssignableType_4> 17a19f4c-82b7-4111-9fae-59283029f429
       audioManager: !<Typename.AudioManager> 524a694b-a229-4da7-a59c-8e4e89dbac41
       gameManager: !<reference.ScriptComponent> ee8ff82e-d714-4a6e-aa22-eb83b2543b9b
       scoreManager: !<Typename.ScoreManager> 0ef954bb-60d9-4599-aec2-274b48b143f3

@@ -35,9 +35,7 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - foodPrefab: !<reference.SceneObject[]>
-        []
-      foodPrefabInstances: !<reference.SceneObject[]>
+    - foodPrefabInstances: !<reference.SceneObject[]>
         []
       foodScripts: !<reference.ScriptComponent[]>
         []
@@ -47,3 +45,6 @@
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

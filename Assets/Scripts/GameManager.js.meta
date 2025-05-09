@@ -41,21 +41,16 @@
   DefaultScriptInputs:
     - boundaryMinimum: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       boundaryMaximum: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
-      testPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       scale: !<float> 0.000000
-      snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       gameParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       uiParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       playArea: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      SpectaclesInteractionKit: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      SettingsMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      SpectaclesInteractionKitVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      GridMover: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      ObjectsToDisableWhenOpeningSettingsMenu: !<reference.SceneObject[]>
-        []
-      playAreaWorldCenter: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
       cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       controlParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playAreaWorldCenter: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

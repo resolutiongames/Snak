@@ -34,17 +34,13 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      food: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      forwardProgression: !<float> 0.000000
-      foodPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      foodPrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - speedPowerUp: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      PrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       maxInstances: 256
       minimumSpawnDistance: !<float> 0.000000
-      speedPowerUp: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      PrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      obstacleInstancesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      powerUpInstancesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

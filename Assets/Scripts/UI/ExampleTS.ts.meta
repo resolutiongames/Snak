@@ -40,3 +40,6 @@
   InputLines:
     - // @input bool debug
     - '// @input float debugFloatVar {"widget":"slider", "min":0, "max":1, "step":0.1, "showIf":"debug"}'
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

@@ -37,33 +37,19 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - obstacle: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      spec: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      speck: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      spacing: !<float> 0.000000
-      yOffSet: 0.010000
-      obstacles: !<reference.ObjectPrefab[]>
+    - obstaclesPrefabs:
         []
       numberOfObstaclesToSpawn: 1
       minimumSpawnDistance: !<float> 0.000000
-      obstacleInstancessParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       obstacleInstancesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      minSpawnScale: !<float> 0.000000
-      maxSpawnScale: !<float> 0.000000
-      obstaclePrefabs: !<reference.ObjectPrefab[]>
-        []
       spawnInterval: !<float> 0.000000
       chanceToSpawn: !<float> 0.000000
       padding: 80
-      prefabSpawnPercentage: !<int[]>
-        - 1
-      logPrefabSpawnPercentage: false
       logSpawnPercentage: false
-      obstaclesPrefabsNew:
-        []
-      obstaclesPrefabs:
-        []
   ScriptTypes:
     -
       {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

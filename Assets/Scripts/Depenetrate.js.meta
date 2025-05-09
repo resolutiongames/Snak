@@ -32,9 +32,11 @@
     {}
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
   DefaultScriptInputs:
-    - parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      foodCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+    - foodCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
       pushStrength: !<float> 0.000000
   ScriptTypes:
     -
       {}
+  SetupScript:
+    code: ""
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000

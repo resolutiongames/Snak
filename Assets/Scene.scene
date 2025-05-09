@@ -86,6 +86,7 @@
   DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/0005641c-028d-459a-0000-000000014b4d>
   PrefabRemaps:
     []
@@ -562,7 +563,7 @@
     {}
   ScriptInputs:
     "":
-      container: !<MappingBased.ContainerFrame> a4f0cc37-b8a4-44c8-b832-d9db15bd219a
+      container: !<MappingBased.AssignableType> a4f0cc37-b8a4-44c8-b832-d9db15bd219a
       gameManager: !<reference.ScriptComponent> ee8ff82e-d714-4a6e-aa22-eb83b2543b9b
       settingsMenu: !<reference.SceneObject> fb49e266-23d6-44b0-a398-fccd5874b919
       playButton: !<reference.SceneObject> c06d043a-792c-4560-9347-f371ef542ad4
@@ -2306,14 +2307,14 @@
     {}
   ScriptInputs:
     "":
-      container: !<MappingBased.ContainerFrame> a4f0cc37-b8a4-44c8-b832-d9db15bd219a
-      backgroundMusicSlider: !<MappingBased.Slider> 909430b3-5fab-43d0-85ba-06ebf3992e3d
+      container: !<MappingBased.AssignableType> a4f0cc37-b8a4-44c8-b832-d9db15bd219a
+      backgroundMusicSlider: !<MappingBased.AssignableType_1> 909430b3-5fab-43d0-85ba-06ebf3992e3d
       backgroundMusicVolumeText: !<reference.Text> 533a1017-1bcc-407f-b783-d2abd5646d6e
-      sfxMusicSlider: !<MappingBased.Slider> 43288448-303b-4bd2-95ab-7b490fac19c1
+      sfxMusicSlider: !<MappingBased.AssignableType_2> 43288448-303b-4bd2-95ab-7b490fac19c1
       sfxMusicVolumeText: !<reference.Text> 181dfad4-f8bc-4860-8f31-b80e94bfaacc
-      worldCenterSlider: !<MappingBased.Slider> d81f74b9-7f1a-4e44-82d5-5a959e1c558d
+      worldCenterSlider: !<MappingBased.AssignableType_3> d81f74b9-7f1a-4e44-82d5-5a959e1c558d
       worldCenterSliderText: !<reference.Text> a91e7292-67a2-41bd-ac6f-1e19d82fb9dd
-      scorePopUpToggle: !<MappingBased.ToggleButton> 49d3f4e2-96c5-434f-9266-739ce9db0727
+      scorePopUpToggle: !<MappingBased.AssignableType_4> 49d3f4e2-96c5-434f-9266-739ce9db0727
       audioManager: !<Typename.AudioManager> 524a694b-a229-4da7-a59c-8e4e89dbac41
       gameManager: !<reference.ScriptComponent> ee8ff82e-d714-4a6e-aa22-eb83b2543b9b
       scoreManager: !<Typename.ScoreManager> 0ef954bb-60d9-4599-aec2-274b48b143f3
@@ -4221,7 +4222,7 @@
     "":
       handType: left
       selectVisual: Default
-      handInteractor: !<MappingBased.HandInteractor> 0b389737-430e-496b-9df3-c6337b6e1de5
+      handInteractor: !<MappingBased.AssignableType> 0b389737-430e-496b-9df3-c6337b6e1de5
       handMesh: !<reference.RenderMeshVisual> aa9ad8ed-6b9e-445e-89b1-f3adfb637605
       root: !<reference.SceneObject> fe10ee06-6a98-4ceb-9c6a-845995e936d2
       autoJointMapping: true
@@ -5639,6 +5640,7 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
+  EnableBatching: false
 - !<ScreenTransform/8789b6fc-f561-4c9e-bd8e-ea33c5aa0e3b>
   PrefabRemaps:
     []
@@ -6404,7 +6406,7 @@
     "":
       handType: right
       selectVisual: Default
-      handInteractor: !<MappingBased.HandInteractor> 04b4d7ba-bbe0-46c3-9319-a938b8ddcefa
+      handInteractor: !<MappingBased.AssignableType> 04b4d7ba-bbe0-46c3-9319-a938b8ddcefa
       handMesh: !<reference.RenderMeshVisual> 0fe856ed-abc7-4a0f-87e9-42c041e3c45c
       root: !<reference.SceneObject> 42a447ed-7e16-48c1-b716-404ca1f3b295
       autoJointMapping: true
@@ -7240,6 +7242,7 @@
     LetterSpacing: 0.000000
     LineSpacing: 1.000000
     CapitalizationOverride: None
+  EnableBatching: false
 - !<Text/a9e41db1-0522-4cbb-8583-4946ba8b34ef>
   PrefabRemaps:
     []

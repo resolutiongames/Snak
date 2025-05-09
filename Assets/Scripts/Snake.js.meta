@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/70dc6693-6a00-4392-8bad-9f55689f2996>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 684f7a92-09e1-4988-943c-8ab7a41be9ea
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 684f7a92-09e1-4988-943c-8ab7a41be9ea
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b946f4ff-a4ac-478f-a9a2-25eca7ed36d9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b946f4ff-a4ac-478f-a9a2-25eca7ed36d9>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 700362ef-089b-40d4-bbab-7f61521e807f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bodyPrefab: false
+    boundaryIndicatorX: false
+    boundaryIndicatorY: false
+    boundaryIndicatorZ: false
+    boundaryMaterial: false
+    camera: false
+    controller: false
+    flicker: false
+    foodEffectMultiplier: false
+    foodManager: false
+    gameManager: false
+    head: false
+    headCollider: false
+    headRenderMeshVisuals: false
+    jawSpeed: false
+    lengthBodyBit: false
+    mainMenu: false
+    maxDeathAnimationDuration: false
+    maxDeathAnimationTimePerSegment: false
+    maxJawAngleRadians: false
+    minDeathAnimationTimePerSegment: false
+    playArea: false
+    playAreaOuterRadius: false
+    segmentDistance: false
+    segmentLossOnHit: false
+    selfIntersection: false
+    spawnImmunityDuration: false
+    speed: false
+    speedBonusFactor: false
+    speedPerSegment: false
+    tailPrefab: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - controller: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      segmentDistance: !<float> 0.000000
+      bodyPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      head: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lengthHead: !<float> 0.000000
+      lengthBodyBit: !<float> 0.000000
+      food: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      foodEatingDistance: !<float> 0.000000
+      playArea: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playAreaRadius: !<float> 0.000000
+      playAreaInnerRadius: !<float> 0.000000
+      playAreaOuterRadius: !<float> 0.000000
+      playAreaWorldCenter: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      speed: !<float> 0.000000
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      headCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      foodManager: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      layerSet: !<RequiredType.LayerSet> 00000000-0000-0000-0000-000000000000
+      jaw: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      jawSpeed: !<float> 0.000000
+      maxJawAngleRadians: !<float> 0.000000
+      mainMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      foodEffectMultiplier: !<float> 0.000000
+      segmentLossOnHit: 0
+      speedBonusFactor: !<float> 0.000000
+      boundaryIndicatorX: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boundaryIndicatorY: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boundaryIndicatorZ: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      speedPerSegment: !<float> 0.000000
+      spawnImmunityDuration: !<float> 0.000000
+      segmentScoreBonusFactor: !<float> 0.000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      headRenderMeshVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boundaryMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      tailPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minDeathAnimationTimePerSegment: !<RequiredType.script> 00000000-0000-0000-0000-000000000000
+      maxDeathAnimationDuration: !<RequiredType.script> 00000000-0000-0000-0000-000000000000
+      maxDeathAnimationTimePerSegment: !<float> 0.000000
+      flicker: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      selfIntersection: false
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

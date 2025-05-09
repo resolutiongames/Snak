@@ -1,0 +1,778 @@
+- !<AssetImportMetadata/16e23a6e-dba7-45c8-8bbf-2b42f04ea58a>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 282fd76a-a2ea-46ca-aad5-ab0fa04436b7
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 282fd76a-a2ea-46ca-aad5-ab0fa04436b7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> ba443609-6886-46b4-9a7d-55849cfc971b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/055a76f4-6e51-4e64-8c26-0c887108c977>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 4ca2c175-3208-4114-bf82-98a1e640f865
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/07f32cc4-ca70-42e3-bda8-0aaa613de7ba>
+  PrefabRemaps:
+    []
+  Name: Obstacle
+  Enabled: true
+  ScriptAsset: !<reference> 885cf895-0a78-4147-93c1-cc1f318cfa35
+  ScriptInputsDefault:
+    spawnVolume: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        - !<reference> 2d62b2c7-4f73-420e-becc-6825c2919d51
+        - !<reference> 7360d355-01f3-41d0-8eeb-01b1fc41f8dc
+        - !<reference> d0a26e27-20d7-4d1f-9732-1fa0503c07b4
+        - !<reference> 2543f028-3069-494d-9605-3e35c1b699b7
+      foodPrefab: !<reference.ObjectPrefab> cc1c30a0-a195-4bc3-9acd-d6437a6b2bfb
+      foodCount: 50
+      spawnFoodOnAwake: true
+      radius: !<float> 50.000000
+      shouldSpawnInVolume: true
+      spawnVolume: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/0b4186b0-59b8-4476-91e9-fa9bb1ac5422>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0d062dbb-0d70-4b84-a769-380ef86d0f0f>
+  PrefabRemaps:
+    []
+  Name: Bramble_04 5
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 69.455811, y: 20.906120, z: 25.713440}
+    rotation: {x: 180.000000, y: -0.000000, z: 180.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 20cc9259-26e6-4fb3-ba14-1360d8344b9b
+  Components:
+    []
+- !<ColliderComponent/0f564ecf-088c-496e-9305-044d29a4e696>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/1a19d577-76e3-4c47-96fc-66b856ff9084>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 4ca2c175-3208-4114-bf82-98a1e640f865
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/20cc9259-26e6-4fb3-ba14-1360d8344b9b>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1a19d577-76e3-4c47-96fc-66b856ff9084
+    - !<own> 89ec6cca-f146-4dfd-ace0-66db4878b605
+- !<SceneObject/2543f028-3069-494d-9605-3e35c1b699b7>
+  PrefabRemaps:
+    []
+  Name: Point 4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -171.225296, y: 5.007645, z: 19.788097}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac168891-52fa-495c-ae9c-15a81a18c5b7
+- !<SceneObject/2d62b2c7-4f73-420e-becc-6825c2919d51>
+  PrefabRemaps:
+    []
+  Name: Point 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -1.064957, y: 5.007645, z: 19.788097}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d8b40b4e-1413-487b-924f-13ae026e40e5
+- !<SceneObject/324ff3ca-d021-4a09-a298-5a05b5172b94>
+  PrefabRemaps:
+    []
+  Name: Points
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 7.286318, y: 3.802135, z: -55.910118}
+    rotation: {x: 270.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000001, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d62b2c7-4f73-420e-becc-6825c2919d51
+    - !<own> 7360d355-01f3-41d0-8eeb-01b1fc41f8dc
+    - !<own> d0a26e27-20d7-4d1f-9732-1fa0503c07b4
+    - !<own> 2543f028-3069-494d-9605-3e35c1b699b7
+  Components:
+    []
+- !<RenderMeshVisual/384511fb-7e83-420a-b207-7bab3bddb6e0>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 4ca2c175-3208-4114-bf82-98a1e640f865
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/3a734471-8afa-40a3-85ab-28f7f2134f0e>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9dc970f2-dfd8-493a-96e3-a233817b5a31
+    - !<own> 88456b2e-57c5-4ee0-856e-5a5c3d27fb1d
+- !<SceneObject/3ad207ac-a3e6-4a43-9174-1d8ed1002ed7>
+  PrefabRemaps:
+    []
+  Name: Bramble_04 3
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: -46.791451, y: 20.906120, z: -42.967232}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 53512802-45dd-4bea-91c0-e65982a9c868
+  Components:
+    []
+- !<ColliderComponent/5220b0c5-6082-46a6-ab59-41559466149e>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/53512802-45dd-4bea-91c0-e65982a9c868>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> afc72ee1-b2c2-4fcc-8fcb-9f1df6cf460c
+    - !<own> f9fa5623-dc14-4be9-a924-ca6e1bb0e694
+- !<SceneObject/55836842-b192-4b07-a836-171f48908012>
+  PrefabRemaps:
+    []
+  Name: Bramble_04 4
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: -46.791451, y: 20.906120, z: 25.713440}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6fda7812-6947-43f1-a905-a3facb8e09bf
+  Components:
+    []
+- !<SceneObject/56b7d5c2-7fc9-418d-9fae-62f1f1afec7b>
+  PrefabRemaps:
+    []
+  Name: Bramble_04 2
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 69.455811, y: 20.906120, z: -42.967224}
+    rotation: {x: -180.000000, y: -0.000000, z: -180.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8638e0db-c25d-4831-a686-baa97237d7a4
+  Components:
+    []
+- !<RenderMeshVisual/5b23cbee-b678-4412-9dee-76c38cc2f079>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 4ca2c175-3208-4114-bf82-98a1e640f865
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6fda7812-6947-43f1-a905-a3facb8e09bf>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 384511fb-7e83-420a-b207-7bab3bddb6e0
+    - !<own> 5220b0c5-6082-46a6-ab59-41559466149e
+- !<SceneObject/7360d355-01f3-41d0-8eeb-01b1fc41f8dc>
+  PrefabRemaps:
+    []
+  Name: Point 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -77.477036, y: -15.610329, z: 19.788097}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dffb7b42-1e0c-4756-be09-a3f8937ffd02
+- !<SceneObject/7709e786-3bb6-45a4-a866-713cb129f571>
+  PrefabRemaps:
+    []
+  Name: Bramble_05
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7f79eb16-5926-45ad-80b3-e68eca30ff09
+    - !<own> bb9c7b07-8beb-4531-9cc3-d2e4427468a0
+- !<RenderMeshVisual/7f79eb16-5926-45ad-80b3-e68eca30ff09>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 2f3f7666-57e9-4394-842e-0bdc6ef78e94
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7ff48c37-a722-43b8-a54f-2dca9a37f2c4>
+  PrefabRemaps:
+    []
+  Name: Bramble_04 1
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 69.455811, y: 20.906120, z: 98.108017}
+    rotation: {x: -180.000000, y: -0.000000, z: -180.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3a734471-8afa-40a3-85ab-28f7f2134f0e
+  Components:
+    []
+- !<SceneObject/8638e0db-c25d-4831-a686-baa97237d7a4>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 055a76f4-6e51-4e64-8c26-0c887108c977
+    - !<own> 0f564ecf-088c-496e-9305-044d29a4e696
+- !<ColliderComponent/88456b2e-57c5-4ee0-856e-5a5c3d27fb1d>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/89ec6cca-f146-4dfd-ace0-66db4878b605>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/9dc970f2-dfd8-493a-96e3-a233817b5a31>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 4ca2c175-3208-4114-bf82-98a1e640f865
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a54ce8fb-6e11-4c42-8e99-48fbe78ea8dc>
+  PrefabRemaps:
+    []
+  Name: BrambleTunnel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3ad207ac-a3e6-4a43-9174-1d8ed1002ed7
+    - !<own> 55836842-b192-4b07-a836-171f48908012
+    - !<own> 7ff48c37-a722-43b8-a54f-2dca9a37f2c4
+    - !<own> 56b7d5c2-7fc9-418d-9fae-62f1f1afec7b
+    - !<own> 0d062dbb-0d70-4b84-a769-380ef86d0f0f
+    - !<own> aa234cf1-8e6b-4f7c-9d76-95c93fa6f9d8
+    - !<own> b8f9d31c-0c1c-46dd-9106-0cca7c82df91
+    - !<own> 324ff3ca-d021-4a09-a298-5a05b5172b94
+    - !<own> f7df6ce2-a7a7-4c37-8065-da56eff89740
+  Components:
+    - !<own> 07f32cc4-ca70-42e3-bda8-0aaa613de7ba
+- !<SceneObject/aa234cf1-8e6b-4f7c-9d76-95c93fa6f9d8>
+  PrefabRemaps:
+    []
+  Name: Bramble_05 1
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 56.183807, y: -49.247925, z: -16.170441}
+    rotation: {x: 90.000000, y: 46.294998, z: -180.000000}
+    scale: {x: 1.360906, y: 1.360906, z: 1.360906}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7709e786-3bb6-45a4-a866-713cb129f571
+  Components:
+    []
+- !<RenderMeshVisual/ac168891-52fa-495c-ae9c-15a81a18c5b7>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/afc72ee1-b2c2-4fcc-8fcb-9f1df6cf460c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 4ca2c175-3208-4114-bf82-98a1e640f865
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/b2930b94-18b5-49a4-b857-bb3ce03155eb>
+  PackagePath: ""
+  objects:
+    - !<own> a54ce8fb-6e11-4c42-8e99-48fbe78ea8dc
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/b8f9d31c-0c1c-46dd-9106-0cca7c82df91>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: -46.791451, y: 20.906120, z: 98.108017}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c5a41fcd-703a-49d1-a061-c9e92bea0ab4
+  Components:
+    []
+- !<ObjectPrefabAssetData/ba443609-6886-46b4-9a7d-55849cfc971b>
+  SourceRemaps:
+    - 17894863-b819-425f-8311-da8abbded1d8: 89ec6cca-f146-4dfd-ace0-66db4878b605
+    - 282fd76a-a2ea-46ca-aad5-ab0fa04436b7: b2930b94-18b5-49a4-b857-bb3ce03155eb
+    - 2b97aec3-deed-4dc7-b839-aeb9f8485059: 2543f028-3069-494d-9605-3e35c1b699b7
+    - 330e7d23-3483-4210-9371-1010321e61ed: 7ff48c37-a722-43b8-a54f-2dca9a37f2c4
+    - 386b543a-78b4-4142-926f-862735d3d9e5: ac168891-52fa-495c-ae9c-15a81a18c5b7
+    - 390fb618-9299-4f89-8300-674bbf55aaca: 0f564ecf-088c-496e-9305-044d29a4e696
+    - 3e1ac9fe-ba15-4288-9736-67850ae5e2cc: 055a76f4-6e51-4e64-8c26-0c887108c977
+    - 417aadc5-32d0-46fb-af1f-777373ae9beb: 7360d355-01f3-41d0-8eeb-01b1fc41f8dc
+    - 492b9b0b-a5a3-4c79-a843-efe75b0d625a: 384511fb-7e83-420a-b207-7bab3bddb6e0
+    - 51d27f48-7a2b-42d0-902a-9b4654064624: d8b40b4e-1413-487b-924f-13ae026e40e5
+    - 59f51749-2e2a-478a-8644-38d49df7104f: bb9c7b07-8beb-4531-9cc3-d2e4427468a0
+    - 5cab4cfb-c261-4b2f-9314-679402ac20df: cd6cbcfc-96e0-4423-8f50-3f031a2a131a
+    - 604f8151-2adb-4f4e-ad59-ccd98bcadc30: 3ad207ac-a3e6-4a43-9174-1d8ed1002ed7
+    - 615964ca-6443-4aff-beb8-2bdb9a4b0811: afc72ee1-b2c2-4fcc-8fcb-9f1df6cf460c
+    - 68e16960-272b-4785-9055-468f732f028d: 9dc970f2-dfd8-493a-96e3-a233817b5a31
+    - 6c16e0b7-6f30-4f83-88d1-412e0e834c53: f9fa5623-dc14-4be9-a924-ca6e1bb0e694
+    - 6f76b7d2-3463-48ec-9d6f-2d345e3e0eaa: 5220b0c5-6082-46a6-ab59-41559466149e
+    - 7b184754-fbc5-4ee0-ad77-ffad56e5aa2d: 324ff3ca-d021-4a09-a298-5a05b5172b94
+    - 7c33092c-383d-46e6-b0e4-aa9d31427c86: 20cc9259-26e6-4fb3-ba14-1360d8344b9b
+    - 7ff39a61-b32e-495a-a90e-476e3a0eac49: 56b7d5c2-7fc9-418d-9fae-62f1f1afec7b
+    - 81aff946-f85f-43af-81cf-1e726e694512: 5b23cbee-b678-4412-9dee-76c38cc2f079
+    - 889eb5ef-7fe7-4f6f-819a-397ad95cb8ec: 6fda7812-6947-43f1-a905-a3facb8e09bf
+    - 89d33fa0-346d-4891-9e8e-e2a78683d5da: aa234cf1-8e6b-4f7c-9d76-95c93fa6f9d8
+    - 942e3b45-3b3d-4c58-81db-eb7cc363e5f7: 0b4186b0-59b8-4476-91e9-fa9bb1ac5422
+    - 9e668945-d5b3-47c0-94ff-f8e9c6c91895: 88456b2e-57c5-4ee0-856e-5a5c3d27fb1d
+    - 9e71b03a-a2db-4539-8fde-38c39755344f: f7df6ce2-a7a7-4c37-8065-da56eff89740
+    - a4925366-9a7b-43c1-8dce-bf7849411ec7: 7709e786-3bb6-45a4-a866-713cb129f571
+    - bcf3697d-451e-4fd9-ad70-92678642914e: 3a734471-8afa-40a3-85ab-28f7f2134f0e
+    - c44f8bfb-d8be-4761-9e99-3cb257faaaf8: 8638e0db-c25d-4831-a686-baa97237d7a4
+    - cc4de807-bf01-48c3-af9a-b54851960ccb: 7f79eb16-5926-45ad-80b3-e68eca30ff09
+    - d08700b7-28ff-4725-a083-cc4db7873378: c5a41fcd-703a-49d1-a061-c9e92bea0ab4
+    - d1933467-0429-4266-8a39-6430b99bf12c: 1a19d577-76e3-4c47-96fc-66b856ff9084
+    - dd712478-dda1-4269-bb8e-db5a07f7a533: 2d62b2c7-4f73-420e-becc-6825c2919d51
+    - df378bf4-4208-4e38-936b-dd04e1bd7211: dffb7b42-1e0c-4756-be09-a3f8937ffd02
+    - e1581c94-90c7-4318-8884-0a6d09891563: 07f32cc4-ca70-42e3-bda8-0aaa613de7ba
+    - e1a9a0c2-940d-4f56-9290-34c87aab0589: b8f9d31c-0c1c-46dd-9106-0cca7c82df91
+    - e4402dc2-1561-4d10-aa3d-14367aa4f72a: d0a26e27-20d7-4d1f-9732-1fa0503c07b4
+    - e69172fa-9b07-47e9-be34-acc7eb981037: 55836842-b192-4b07-a836-171f48908012
+    - e8de3828-4d9a-4cc6-b9f8-6d1a1be0dacb: a54ce8fb-6e11-4c42-8e99-48fbe78ea8dc
+    - ec6b59df-c9a7-48eb-801e-23c778896b7d: 0d062dbb-0d70-4b84-a769-380ef86d0f0f
+    - f19feba8-2ccf-420c-ba6d-6601c449e5bf: 53512802-45dd-4bea-91c0-e65982a9c868
+  SourceState: !<own> b2930b94-18b5-49a4-b857-bb3ce03155eb
+- !<ColliderComponent/bb9c7b07-8beb-4531-9cc3-d2e4427468a0>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 445502fa-3ca4-43c4-9320-86c48d98e01d
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/c5a41fcd-703a-49d1-a061-c9e92bea0ab4>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5b23cbee-b678-4412-9dee-76c38cc2f079
+    - !<own> cd6cbcfc-96e0-4423-8f50-3f031a2a131a
+- !<ColliderComponent/cd6cbcfc-96e0-4423-8f50-3f031a2a131a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/d0a26e27-20d7-4d1f-9732-1fa0503c07b4>
+  PrefabRemaps:
+    []
+  Name: Point 3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -110.455231, y: 19.154510, z: 19.788097}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0b4186b0-59b8-4476-91e9-fa9bb1ac5422
+- !<RenderMeshVisual/d8b40b4e-1413-487b-924f-13ae026e40e5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/dffb7b42-1e0c-4756-be09-a3f8937ffd02>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f7df6ce2-a7a7-4c37-8065-da56eff89740>
+  PrefabRemaps:
+    []
+  Name: Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 16.951080}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ColliderComponent/f9fa5623-dc14-4be9-a924-ca6e1bb0e694>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false

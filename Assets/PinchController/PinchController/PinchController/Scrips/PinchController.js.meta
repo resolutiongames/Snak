@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/092c390c-7230-443c-aabd-85963745aef7>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5bbc8b4d-9a29-4eea-bb94-cade68b25add
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5bbc8b4d-9a29-4eea-bb94-cade68b25add
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8248f3e1-50ca-45c9-9bfe-cbcab4611f56
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8248f3e1-50ca-45c9-9bfe-cbcab4611f56>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0803f9c5-0d72-42fe-939f-31c9c8b1aec2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    camera: false
+    controlType: false
+    gizmoRoot: false
+    indexTip: false
+    lostTrackingTimer: false
+    maxDistance: false
+    minDistance: false
+    objectTracker: false
+    originType: false
+    pinchEnter: false
+    pinchExit: false
+    space: false
+    thumbTip: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - thumbTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      indexTip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinchEnter: !<float> 0.000000
+      pinchExit: !<float> 0.000000
+      gizmo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      target: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 0.000000
+      gizmos: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gizmoTransforms: !<RequiredType.Transform[]>
+        []
+      spellType: !<string> 0
+      controlType: !<string> 0
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      originType: !<string> 0
+      lostTrackingTimer: !<float> 2.000000
+      objectTracker: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      space: 0
+      gizmoRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

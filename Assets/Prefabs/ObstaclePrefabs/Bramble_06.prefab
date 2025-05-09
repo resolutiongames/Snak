@@ -1,0 +1,76 @@
+- !<ObjectPrefab/31b8fd60-3da3-41ab-81ce-11762650025b>
+  PackagePath: ""
+  objects:
+    - !<own> d3f4c974-0eff-48cd-ae63-ec4623c7586f
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/ba49808a-3bde-4e97-9e6a-590915a8a6a1>
+  PrefabRemaps:
+    []
+  Name: Bramble_06
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d02a7bd9-9822-4b05-a8c2-71345b07f1a1
+    - !<own> e45cda79-9eaf-4fab-9d37-01144e5d92cc
+- !<RenderMeshVisual/d02a7bd9-9822-4b05-a8c2-71345b07f1a1>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> f77453b2-212f-4fe8-9f25-f934742a4b30
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d3f4c974-0eff-48cd-ae63-ec4623c7586f>
+  PrefabRemaps:
+    []
+  Name: Bramble_06
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ba49808a-3bde-4e97-9e6a-590915a8a6a1
+  Components:
+    []
+- !<ColliderComponent/e45cda79-9eaf-4fab-9d37-01144e5d92cc>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 99cf6d74-98bc-49e1-8992-cf3711763a42
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false

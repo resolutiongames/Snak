@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/2216b8e1-27f3-4100-a75f-a7ce7925b5d2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d5dc5e66-672b-4106-bd06-21e8416d5f5c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d5dc5e66-672b-4106-bd06-21e8416d5f5c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b679ceab-ac53-44ec-a580-0c5c94d75d98
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b679ceab-ac53-44ec-a580-0c5c94d75d98>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 522bbfd1-0e69-4820-aa14-8ab7eed0ea0c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    debug: false
+    debugFloatVar: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - debug: false
+      debugFloatVar: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input bool debug
+    - '// @input float debugFloatVar {"widget":"slider", "min":0, "max":1, "step":0.1, "showIf":"debug"}'

@@ -1,0 +1,105 @@
+- !<AssetImportMetadata/7a2c2805-1e76-4e40-8f3d-845cf51f89ef>
+  ImportedAssetIds:
+    2770e0cf34126dee: !<reference> 56640b26-55a1-4860-aa30-5a79c39312fb
+    7a0dd5cd69df73fa: !<reference> 840b1da8-05d0-4917-a74e-a49ff42028af
+    Meshes/Bramble_03: !<reference> 514375fb-e4a2-43c8-8692-425d12bb49fd
+    Scene: !<reference> 774c1e45-bf40-4c15-a667-08ae28bde281
+    fcc1d9cdbc9cabc3: !<reference> 44e01fe5-6ee3-490a-97db-5c334bb0c82b
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 774c1e45-bf40-4c15-a667-08ae28bde281
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> a5c5c9e6-3b2a-49f0-ad4f-624bf43cda4c
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: false
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/5c9c0ac9-5ded-4fc6-80ea-d72d489221b1>
+  PrefabRemaps:
+    []
+  Name: Bramble_03
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 79a3016b-2769-468f-a2fd-bfce9378b445
+  Components:
+    []
+- !<SceneObject/79a3016b-2769-468f-a2fd-bfce9378b445>
+  PrefabRemaps:
+    []
+  Name: Bramble_03
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b1f1a574-bb87-4fa2-a033-ea88a252e732
+- !<ObjectPrefab/7a71f182-7235-4b04-a445-7be12ea9f519>
+  PackagePath: ""
+  objects:
+    - !<own> 5c9c0ac9-5ded-4fc6-80ea-d72d489221b1
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/a5c5c9e6-3b2a-49f0-ad4f-624bf43cda4c>
+  SourceRemaps:
+    - 44e01fe5-6ee3-490a-97db-5c334bb0c82b: b1f1a574-bb87-4fa2-a033-ea88a252e732
+    - 56640b26-55a1-4860-aa30-5a79c39312fb: 79a3016b-2769-468f-a2fd-bfce9378b445
+    - 774c1e45-bf40-4c15-a667-08ae28bde281: 7a71f182-7235-4b04-a445-7be12ea9f519
+    - 840b1da8-05d0-4917-a74e-a49ff42028af: 5c9c0ac9-5ded-4fc6-80ea-d72d489221b1
+  SourceState: !<own> 7a71f182-7235-4b04-a445-7be12ea9f519
+- !<RenderMeshVisual/b1f1a574-bb87-4fa2-a033-ea88a252e732>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 514375fb-e4a2-43c8-8692-425d12bb49fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

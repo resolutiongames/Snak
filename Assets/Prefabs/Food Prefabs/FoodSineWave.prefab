@@ -1,0 +1,1559 @@
+- !<ObjectPrefab/7937abb2-47be-439d-b24e-a75f9aa7d42a>
+  PackagePath: ""
+  objects:
+    - !<own> 1ecb5c9f-a392-47ce-81bd-2484a3c65836
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/056dff36-b21e-471e-b6d2-0dda6efeb66d>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ScriptComponent/0addcdf8-e80e-4832-b071-dd17a1980eba>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/128440c8-98fb-4100-8583-3ee0489bd5aa>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> de1a2116-cdfb-4191-8197-b0f5fc0ff0dc
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/140abf98-fd53-4405-bb50-c2668f8fe135>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ScriptComponent/14e2296f-b961-401e-a0dc-d3268134e381>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/19fe2575-174f-4393-9893-300ddb1d46b0>
+  PrefabRemaps:
+    []
+  Name: FoodItem 6
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 10.000000, y: 7.071068, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7ccf854f-fea8-4689-a512-e904002790be
+    - !<own> 056dff36-b21e-471e-b6d2-0dda6efeb66d
+    - !<own> 2310c901-3b1d-48ed-a9c2-43aeeecca5a6
+    - !<own> 3c8c3506-bae9-4ea1-8a2a-d4a6e8d0e97f
+    - !<own> 22dfdec7-a861-4803-a0df-3a5b1114e68f
+    - !<own> 947f9851-b956-4bd0-80b5-a420ecc9ad9d
+- !<SceneObject/1ecb5c9f-a392-47ce-81bd-2484a3c65836>
+  PrefabRemaps:
+    []
+  Name: FoodSineWave
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a367068a-7011-40b4-a734-b278f974d3eb
+    - !<own> 680a394f-24cc-4c3f-90e1-5fdc05318249
+    - !<own> c8d3bde3-a30c-432d-a2f0-e55dbde0ca5b
+    - !<own> 41516d5f-a0ee-48fa-8533-71552bfba1b7
+    - !<own> c4b5536f-55a0-41bc-b0c4-25c0465a5abe
+    - !<own> 980bd88f-1ab3-4aba-8664-100460094ca4
+    - !<own> 19fe2575-174f-4393-9893-300ddb1d46b0
+    - !<own> fbd61928-1c86-4f97-a267-b73b3adbfacb
+    - !<own> e0d59db8-589a-4654-817e-a90e2648b610
+    - !<own> 25f73d7e-7550-439d-9633-0a16fd14f5bc
+  Components:
+    - !<own> dd70178f-ace9-4d57-b19b-ae1efbd0ff0f
+- !<ColliderComponent/21fd37bb-66d7-424f-be8b-d6d58721221b>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<RenderMeshVisual/222b2159-20bd-4e3d-90a7-f83ed4525995>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/22dfdec7-a861-4803-a0df-3a5b1114e68f>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> 056dff36-b21e-471e-b6d2-0dda6efeb66d
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2310c901-3b1d-48ed-a9c2-43aeeecca5a6>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 19fe2575-174f-4393-9893-300ddb1d46b0
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/25f73d7e-7550-439d-9633-0a16fd14f5bc>
+  PrefabRemaps:
+    []
+  Name: OverlapTest
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 42.425079, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 2.000000, z: 6.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3c0dd630-ac9d-43d8-97c0-49489e747e6e
+    - !<own> 6f32695f-664e-44c1-8c85-eeea3d6855db
+- !<ScriptComponent/29eb5dc1-ef3c-4ab6-b875-3a07985aa41f>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> c4b5536f-55a0-41bc-b0c4-25c0465a5abe
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2b3c7f9c-1c14-4a89-8229-291c4a5a1795>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> fbd61928-1c86-4f97-a267-b73b3adbfacb
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/33a42c59-b871-4f3e-af69-8b4da3d3ba2f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/35782516-78b8-4e0d-aea9-2394a796f612>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> a367068a-7011-40b4-a734-b278f974d3eb
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/391e28bf-5fe1-450f-a414-07d3cc6a5629>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> e0d59db8-589a-4654-817e-a90e2648b610
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/395a6afe-e736-445e-bc11-7b5fcf74db96>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<RenderMeshVisual/39a2d7e8-0b39-4a48-9f6e-b377c538ecc3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/3c0dd630-ac9d-43d8-97c0-49489e747e6e>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ScriptComponent/3c8c3506-bae9-4ea1-8a2a-d4a6e8d0e97f>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> 19fe2575-174f-4393-9893-300ddb1d46b0
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/3d46bec5-f546-45bd-9e8e-4846b68e1547>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/41516d5f-a0ee-48fa-8533-71552bfba1b7>
+  PrefabRemaps:
+    []
+  Name: FoodItem 1
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39a2d7e8-0b39-4a48-9f6e-b377c538ecc3
+    - !<own> 21fd37bb-66d7-424f-be8b-d6d58721221b
+    - !<own> efa0cfd9-c3ed-4338-9e98-ef30c2304971
+    - !<own> 861ee8b2-21e5-45aa-83ed-7dd487c0f550
+    - !<own> 7d31d20c-c58e-4e5a-bf17-d4e8f8f41955
+    - !<own> d29182e7-3fb4-4882-8cad-6257c5037429
+- !<ScriptComponent/44006262-957f-4820-907d-2f5d6e392f8d>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> c8d3bde3-a30c-432d-a2f0-e55dbde0ca5b
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/4ddff305-2de7-454c-986a-f64ac2bfa48c>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> 395a6afe-e736-445e-bc11-7b5fcf74db96
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/500394c5-d86e-4ea7-9a1f-5b4248e5ce22>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/512633b0-ef20-43eb-bd80-80913558bf96>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> 782c79de-2dee-4403-9396-7884c940f269
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/5d6e51f1-87c9-49cf-8cd5-9f5fb6122b3a>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> 7babbbd4-6e36-4061-977c-4bd9baa92eb6
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/5ea8990a-e342-40e2-a159-3ab9abf58105>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/680a394f-24cc-4c3f-90e1-5fdc05318249>
+  PrefabRemaps:
+    []
+  Name: FoodItem 5
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 60.000000, y: -10.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d87edde3-6b7a-447e-aa93-cf8b22b1cb9e
+    - !<own> 140abf98-fd53-4405-bb50-c2668f8fe135
+    - !<own> db253437-5fe5-4590-8c3f-be58e1c32b39
+    - !<own> f2d572bc-a15f-4344-92c4-4f2aef8a0232
+    - !<own> f2939b32-8127-414e-9e01-c80b26a65ed7
+    - !<own> 0addcdf8-e80e-4832-b071-dd17a1980eba
+- !<ScriptComponent/6f32695f-664e-44c1-8c85-eeea3d6855db>
+  PrefabRemaps:
+    []
+  Name: Depenetrate
+  Enabled: true
+  ScriptAsset: !<reference> 3887e2c8-0e82-4459-b0aa-2137c8346b85
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      foodCollider: !<reference.ColliderComponent> 3c0dd630-ac9d-43d8-97c0-49489e747e6e
+      pushStrength: !<float> 10.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/71376b89-a8fc-462c-a445-26722b6058b7>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> a7435e56-68b3-4a62-9c09-f6b9f5a09b74
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/782c79de-2dee-4403-9396-7884c940f269>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ColliderComponent/7babbbd4-6e36-4061-977c-4bd9baa92eb6>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<RenderMeshVisual/7ccf854f-fea8-4689-a512-e904002790be>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/7d31d20c-c58e-4e5a-bf17-d4e8f8f41955>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/7d491a31-d2f3-4b52-bbc1-194bf60b1ec0>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> c8d3bde3-a30c-432d-a2f0-e55dbde0ca5b
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/861ee8b2-21e5-45aa-83ed-7dd487c0f550>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> 41516d5f-a0ee-48fa-8533-71552bfba1b7
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/87528661-c521-4b13-82f7-95b1cf7b2f69>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/947f9851-b956-4bd0-80b5-a420ecc9ad9d>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/96b1e3f5-171c-448d-8311-55e2298c2822>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 980bd88f-1ab3-4aba-8664-100460094ca4
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/980bd88f-1ab3-4aba-8664-100460094ca4>
+  PrefabRemaps:
+    []
+  Name: FoodItem 7
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 70.000000, y: -7.071068, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3d46bec5-f546-45bd-9e8e-4846b68e1547
+    - !<own> 395a6afe-e736-445e-bc11-7b5fcf74db96
+    - !<own> 96b1e3f5-171c-448d-8311-55e2298c2822
+    - !<own> f560bda5-0f6a-4d51-a34a-2035334b0e0f
+    - !<own> 4ddff305-2de7-454c-986a-f64ac2bfa48c
+    - !<own> eb436f9d-4955-4112-870b-dd908913375e
+- !<SceneObject/a367068a-7011-40b4-a734-b278f974d3eb>
+  PrefabRemaps:
+    []
+  Name: FoodItem 4
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 50.000000, y: -7.071068, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33a42c59-b871-4f3e-af69-8b4da3d3ba2f
+    - !<own> a7435e56-68b3-4a62-9c09-f6b9f5a09b74
+    - !<own> 35782516-78b8-4e0d-aea9-2394a796f612
+    - !<own> f1e4cd7d-85aa-4c13-9543-b38c63dfceb7
+    - !<own> 71376b89-a8fc-462c-a445-26722b6058b7
+    - !<own> b14daec7-73a5-45da-9e0a-487e18c1a266
+- !<ColliderComponent/a7435e56-68b3-4a62-9c09-f6b9f5a09b74>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ScriptComponent/b14daec7-73a5-45da-9e0a-487e18c1a266>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/b427f815-9e09-4d84-bd5e-2a6b165e126a>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c38b9b94-101d-44f4-b69a-90d49bae7f87>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/c4b5536f-55a0-41bc-b0c4-25c0465a5abe>
+  PrefabRemaps:
+    []
+  Name: FoodItem 3
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 20.000000, y: 10.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 222b2159-20bd-4e3d-90a7-f83ed4525995
+    - !<own> 782c79de-2dee-4403-9396-7884c940f269
+    - !<own> 29eb5dc1-ef3c-4ab6-b875-3a07985aa41f
+    - !<own> db48626d-8d36-40c7-8ab9-d65bbaddf8fd
+    - !<own> 512633b0-ef20-43eb-bd80-80913558bf96
+    - !<own> c38b9b94-101d-44f4-b69a-90d49bae7f87
+- !<ScriptComponent/c622df7a-d03b-402d-9eb4-b93ae97c6b8d>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> fbd61928-1c86-4f97-a267-b73b3adbfacb
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/c8d3bde3-a30c-432d-a2f0-e55dbde0ca5b>
+  PrefabRemaps:
+    []
+  Name: FoodItem 8
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 80.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5ea8990a-e342-40e2-a159-3ab9abf58105
+    - !<own> de1a2116-cdfb-4191-8197-b0f5fc0ff0dc
+    - !<own> 7d491a31-d2f3-4b52-bbc1-194bf60b1ec0
+    - !<own> 44006262-957f-4820-907d-2f5d6e392f8d
+    - !<own> 128440c8-98fb-4100-8583-3ee0489bd5aa
+    - !<own> 14e2296f-b961-401e-a0dc-d3268134e381
+- !<ColliderComponent/ce608bdb-1eac-4d2a-8f3b-92da8c1be043>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<ScriptComponent/d29182e7-3fb4-4882-8cad-6257c5037429>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+    startScale: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> 21fd37bb-66d7-424f-be8b-d6d58721221b
+      scoreAmount: 10
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/d87edde3-6b7a-447e-aa93-cf8b22b1cb9e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/db253437-5fe5-4590-8c3f-be58e1c32b39>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 680a394f-24cc-4c3f-90e1-5fdc05318249
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/db48626d-8d36-40c7-8ab9-d65bbaddf8fd>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> c4b5536f-55a0-41bc-b0c4-25c0465a5abe
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/dd70178f-ace9-4d57-b19b-ae1efbd0ff0f>
+  PrefabRemaps:
+    []
+  Name: FoodCurve
+  Enabled: true
+  ScriptAsset: !<reference> 07bfe693-f550-4375-b5d1-376c07eec390
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      foodPrefabInstances: !<reference.SceneObject[]>
+        - !<reference> a367068a-7011-40b4-a734-b278f974d3eb
+        - !<reference> 680a394f-24cc-4c3f-90e1-5fdc05318249
+        - !<reference> c8d3bde3-a30c-432d-a2f0-e55dbde0ca5b
+        - !<reference> 41516d5f-a0ee-48fa-8533-71552bfba1b7
+        - !<reference> c4b5536f-55a0-41bc-b0c4-25c0465a5abe
+        - !<reference> 980bd88f-1ab3-4aba-8664-100460094ca4
+        - !<reference> 19fe2575-174f-4393-9893-300ddb1d46b0
+        - !<reference> fbd61928-1c86-4f97-a267-b73b3adbfacb
+      foodScripts: !<reference.ScriptComponent[]>
+        - !<reference> 71376b89-a8fc-462c-a445-26722b6058b7
+        - !<reference> f2939b32-8127-414e-9e01-c80b26a65ed7
+        - !<reference> 128440c8-98fb-4100-8583-3ee0489bd5aa
+        - !<reference> d29182e7-3fb4-4882-8cad-6257c5037429
+        - !<reference> 512633b0-ef20-43eb-bd80-80913558bf96
+        - !<reference> 4ddff305-2de7-454c-986a-f64ac2bfa48c
+        - !<reference> 22dfdec7-a861-4803-a0df-3a5b1114e68f
+        - !<reference> 5d6e51f1-87c9-49cf-8cd5-9f5fb6122b3a
+        - !<reference> e3b694c7-5539-4a40-9949-562e237516a8
+      minimumSpawnDistance: !<float> 0.000000
+      numberOfSecondsToWaitBeforeChecking: 2
+      scoreAmount: 100
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/de1a2116-cdfb-4191-8197-b0f5fc0ff0dc>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.000000, y: 3.000000, z: 3.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 65f58fcf-4b43-44a9-b540-50d9b48e2988
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<SceneObject/e0d59db8-589a-4654-817e-a90e2648b610>
+  PrefabRemaps:
+    []
+  Name: FoodItem
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 30.000000, y: 7.071068, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f0bd84b7-e4e7-4f38-a3fb-ccde8e4ee17d
+    - !<own> ce608bdb-1eac-4d2a-8f3b-92da8c1be043
+    - !<own> 391e28bf-5fe1-450f-a414-07d3cc6a5629
+    - !<own> f4415759-c75d-4b67-8e8b-75e3b8f7b3c5
+    - !<own> e3b694c7-5539-4a40-9949-562e237516a8
+    - !<own> b427f815-9e09-4d84-bd5e-2a6b165e126a
+- !<ScriptComponent/e3b694c7-5539-4a40-9949-562e237516a8>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> ce608bdb-1eac-4d2a-8f3b-92da8c1be043
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/eb436f9d-4955-4112-870b-dd908913375e>
+  PrefabRemaps:
+    []
+  Name: FoodTween
+  Enabled: true
+  ScriptAsset: !<reference> fbeb80e1-169b-4db2-8529-e35b63ed1370
+  ScriptInputsDefault:
+    shouldTranslate: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      shouldTranslate: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/efa0cfd9-c3ed-4338-9e98-ef30c2304971>
+  PrefabRemaps:
+    []
+  Name: TweenTransform_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> f1baee56-e4b1-4a36-8d3b-002a9eabd067
+  ScriptInputsDefault:
+    loopType: true
+    movementType: true
+    start: true
+    from: true
+    to: true
+    offset: true
+    additive: true
+    time: true
+    delay: true
+    isLocal: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 41516d5f-a0ee-48fa-8533-71552bfba1b7
+      tweenName: food_scale
+      playAutomatically: false
+      loopType: 0
+      type: 1
+      movementType: 0
+      start: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      end: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+      from: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      to: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      offset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      additive: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      isLocal: true
+      easingFunction: Elastic
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/f0bd84b7-e4e7-4f38-a3fb-ccde8e4ee17d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 77f16e0d-ec01-4d4d-881b-83e2f989265f
+  Mesh: !<reference> dde4867e-0fc0-4d9b-9aca-a34d7505886d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/f1e4cd7d-85aa-4c13-9543-b38c63dfceb7>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> a367068a-7011-40b4-a734-b278f974d3eb
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f2939b32-8127-414e-9e01-c80b26a65ed7>
+  PrefabRemaps:
+    []
+  Name: FoodCurveItem
+  Enabled: true
+  ScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ScriptInputsDefault:
+    minimumSpawnDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      foodCollider: !<reference.ColliderComponent> 140abf98-fd53-4405-bb50-c2668f8fe135
+      scoreAmount: 5
+      minimumSpawnDistance: !<float> 0.000000
+      startScale: !<Vec3> {x: 3.000000, y: 3.000000, z: 3.000000}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f2d572bc-a15f-4344-92c4-4f2aef8a0232>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> 680a394f-24cc-4c3f-90e1-5fdc05318249
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f4415759-c75d-4b67-8e8b-75e3b8f7b3c5>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> e0d59db8-589a-4654-817e-a90e2648b610
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f560bda5-0f6a-4d51-a34a-2035334b0e0f>
+  PrefabRemaps:
+    []
+  Name: TweenChain_TurnOnEvent
+  Enabled: true
+  ScriptAsset: !<reference> c2b32a26-6093-406c-9142-9fb5e8f2d539
+  ScriptInputsDefault:
+    loopType: true
+    recursive: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      tweenName: food_tween
+      playAutomatically: false
+      loopType: 0
+      sceneObjectReference: !<reference.SceneObject> 980bd88f-1ab3-4aba-8664-100460094ca4
+      playAll: true
+      recursive: false
+      tweenNames: !<string[]>
+        - food_scale
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/fbd61928-1c86-4f97-a267-b73b3adbfacb>
+  PrefabRemaps:
+    []
+  Name: FoodItem 2
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 40.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 5.000000, y: 5.000001, z: 5.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 500394c5-d86e-4ea7-9a1f-5b4248e5ce22
+    - !<own> 7babbbd4-6e36-4061-977c-4bd9baa92eb6
+    - !<own> 2b3c7f9c-1c14-4a89-8229-291c4a5a1795
+    - !<own> c622df7a-d03b-402d-9eb4-b93ae97c6b8d
+    - !<own> 5d6e51f1-87c9-49cf-8cd5-9f5fb6122b3a
+    - !<own> 87528661-c521-4b13-82f7-95b1cf7b2f69

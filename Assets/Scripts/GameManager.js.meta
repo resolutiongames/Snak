@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/ab4f7c25-0cb7-42ea-9986-fb9994325559>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6b065723-22a7-45d1-a25f-fad234e1c726
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6b065723-22a7-45d1-a25f-fad234e1c726
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4a70cf6f-e640-4a50-800a-fcb96d119005
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4a70cf6f-e640-4a50-800a-fcb96d119005>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5128f32e-d3af-4670-9daa-752f956ff1f2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    boundaryMaximum: false
+    boundaryMinimum: false
+    cameraObject: false
+    controlParent: false
+    gameParent: false
+    playArea: false
+    playAreaWorldCenter: false
+    scale: false
+    uiParent: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - boundaryMinimum: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      boundaryMaximum: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      testPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      scale: !<float> 0.000000
+      snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gameParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      uiParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playArea: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      SpectaclesInteractionKit: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      SettingsMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      SpectaclesInteractionKitVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      GridMover: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ObjectsToDisableWhenOpeningSettingsMenu: !<reference.SceneObject[]>
+        []
+      playAreaWorldCenter: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      controlParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

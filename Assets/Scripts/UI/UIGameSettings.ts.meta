@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/5e228970-d256-4fa9-b86e-02ad106ed906>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 99664e48-37ad-443e-a136-e88adbebeefa
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 99664e48-37ad-443e-a136-e88adbebeefa
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ada861c9-c73c-4a11-89c4-34202d3e0562
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ada861c9-c73c-4a11-89c4-34202d3e0562>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ca33d598-5402-4c3c-95ba-5bd770bcafd7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    audioManager: false
+    backgroundMusicSlider: false
+    backgroundMusicVolumeText: false
+    container: false
+    gameManager: false
+    mainMenu: false
+    scoreManager: false
+    scorePopUpToggle: false
+    sfxMusicSlider: false
+    sfxMusicVolumeText: false
+    worldCenterSlider: false
+    worldCenterSliderText: false
+  ScriptTypesHidden:
+    AudioManager: false
+    ScoreManager: false
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - backgroundMusicSlider: !<MappingBased.Slider> 00000000-0000-0000-0000-000000000000
+      backgroundMusicVolumeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      audioManager: !<Typename.CustomComponentExample> 00000000-0000-0000-0000-000000000000
+      sfxMusicSlider: !<MappingBased.Slider> 00000000-0000-0000-0000-000000000000
+      sfxMusicVolumeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      container: !<MappingBased.ContainerFrame> 00000000-0000-0000-0000-000000000000
+      worldCenterSlider: !<MappingBased.Slider> 00000000-0000-0000-0000-000000000000
+      worldCenterSliderText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      mainMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      scorePopUpToggle: !<MappingBased.ToggleButton> 00000000-0000-0000-0000-000000000000
+      scoreManager: !<MappingBased.ScorePopUp> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    - AudioManager: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
+      ScoreManager: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
+  InputLines:
+    - // @input ContainerFrame container
+    - // @input Slider backgroundMusicSlider
+    - // @input Component.Text backgroundMusicVolumeText
+    - // @input Slider sfxMusicSlider
+    - // @input Component.Text sfxMusicVolumeText
+    - // @input Slider worldCenterSlider
+    - // @input Component.Text worldCenterSliderText
+    - // @input ToggleButton scorePopUpToggle
+    - // @typename AudioManager
+    - // @input AudioManager audioManager
+    - // @input Component.ScriptComponent gameManager
+    - // @typename ScoreManager
+    - // @input ScoreManager scoreManager
+    - // @input SceneObject mainMenu

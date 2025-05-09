@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/6ca04171-4e2a-4960-add0-39669a4e3c0a>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c081a28e-67dd-4338-84b2-96080119fc04
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c081a28e-67dd-4338-84b2-96080119fc04
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bce77ea9-7c32-437a-bb8a-46173438d7f2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bce77ea9-7c32-437a-bb8a-46173438d7f2>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8bbb195b-7703-47b2-a8e8-c173eb15d842
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    chanceToSpawn: false
+    logSpawnPercentage: false
+    minimumSpawnDistance: false
+    numberOfObstaclesToSpawn: false
+    obstacleInstancesParent: false
+    obstaclesPrefabs: false
+    padding: false
+    spawnInterval: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - obstacle: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      spec: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      speck: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spacing: !<float> 0.000000
+      yOffSet: 0.010000
+      obstacles: !<reference.ObjectPrefab[]>
+        []
+      numberOfObstaclesToSpawn: 1
+      minimumSpawnDistance: !<float> 0.000000
+      obstacleInstancessParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      obstacleInstancesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minSpawnScale: !<float> 0.000000
+      maxSpawnScale: !<float> 0.000000
+      obstaclePrefabs: !<reference.ObjectPrefab[]>
+        []
+      spawnInterval: !<float> 0.000000
+      chanceToSpawn: !<float> 0.000000
+      padding: 80
+      prefabSpawnPercentage: !<int[]>
+        - 1
+      logPrefabSpawnPercentage: false
+      logSpawnPercentage: false
+      obstaclesPrefabsNew:
+        []
+      obstaclesPrefabs:
+        []
+  ScriptTypes:
+    -
+      {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000

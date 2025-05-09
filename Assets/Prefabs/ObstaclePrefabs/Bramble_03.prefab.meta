@@ -1,0 +1,259 @@
+- !<AssetImportMetadata/9941b07d-05f6-4300-aedd-e723c3945570>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 49c1f632-0e9a-483c-8abd-d19aea731277
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 49c1f632-0e9a-483c-8abd-d19aea731277
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 36bdea4b-55e8-4994-a7d7-899a507a5a8c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/065742d1-6233-43fc-987a-d3ae683f46a5>
+  PrefabRemaps:
+    []
+  Name: Point 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -4.370575, y: 6.119812, z: 3.676243}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7177c5c6-a9a4-498d-aec3-f8fdbc7df55d
+- !<RenderMeshVisual/14178173-11c9-45f2-b143-803bbfcd267d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/36bdea4b-55e8-4994-a7d7-899a507a5a8c>
+  SourceRemaps:
+    - 053c8a75-6248-427c-ac3e-0de268376569: 9acfb74c-1d5b-456b-a319-a95e999a06dd
+    - 256301e8-76c6-484e-9b7b-b4620aefab32: 4a6d7ca2-3ffe-4861-9608-cc0848fdb673
+    - 36afd2d5-fb21-41a7-8ebf-f4159808857f: ab8b9286-cc24-4224-8eed-96959fe74e8d
+    - 4340a428-65bb-4e54-86a0-1bcc72e7757d: f021593d-037d-464f-8185-8d841ad9ccb3
+    - 49c1f632-0e9a-483c-8abd-d19aea731277: f3107f1a-c420-4c0b-924f-147e82959a86
+    - 5416a433-201f-4d4d-8192-d7f1bbda1b25: a00e5d6d-d091-4a49-9a71-728a32c9ce24
+    - 5659da58-49ab-4544-bf92-a66988851cdf: 065742d1-6233-43fc-987a-d3ae683f46a5
+    - 8264f131-1f61-4ed3-a19e-cd9ef06c9f5b: 812668eb-e22f-4a17-a4fa-dc7bed41d66f
+    - 89413d97-05df-48f3-a104-8f0bc288259a: 7177c5c6-a9a4-498d-aec3-f8fdbc7df55d
+    - 89b752e1-001d-4e95-b2ba-1da629185069: 80114220-a7cd-4a93-8b87-0c1fea827160
+    - e29b9e28-6b68-4e34-b58d-c968ad2632ff: 805f1780-61f0-4cac-97f9-8667e575e8bf
+    - e5468465-72fe-4922-9829-48284fcd54d0: 14178173-11c9-45f2-b143-803bbfcd267d
+    - f9b9e351-1210-4e48-8b5c-650a77a5441a: cfcef122-e3fa-4178-ba2a-8366acfaafae
+  SourceState: !<own> f3107f1a-c420-4c0b-924f-147e82959a86
+- !<ScriptComponent/4a6d7ca2-3ffe-4861-9608-cc0848fdb673>
+  PrefabRemaps:
+    []
+  Name: Obstacle
+  Enabled: true
+  ScriptAsset: !<reference> 885cf895-0a78-4147-93c1-cc1f318cfa35
+  ScriptInputsDefault:
+    spawnFoodOnAwake: true
+    radius: true
+    shouldSpawnInVolume: true
+    spawnVolume: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        - !<reference> 805f1780-61f0-4cac-97f9-8667e575e8bf
+        - !<reference> 065742d1-6233-43fc-987a-d3ae683f46a5
+        - !<reference> 80114220-a7cd-4a93-8b87-0c1fea827160
+      foodPrefab: !<reference.ObjectPrefab> cc1c30a0-a195-4bc3-9acd-d6437a6b2bfb
+      foodCount: 7
+      spawnFoodOnAwake: false
+      radius: !<float> 5.000000
+      shouldSpawnInVolume: false
+      spawnVolume: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/7177c5c6-a9a4-498d-aec3-f8fdbc7df55d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/80114220-a7cd-4a93-8b87-0c1fea827160>
+  PrefabRemaps:
+    []
+  Name: Point 3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -27.343489, y: -13.152313, z: -38.123764}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a00e5d6d-d091-4a49-9a71-728a32c9ce24
+- !<SceneObject/805f1780-61f0-4cac-97f9-8667e575e8bf>
+  PrefabRemaps:
+    []
+  Name: Point 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -27.343489, y: -13.152313, z: 39.088242}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 14178173-11c9-45f2-b143-803bbfcd267d
+- !<ColliderComponent/812668eb-e22f-4a17-a4fa-dc7bed41d66f>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> 29fcea6b-4e7c-4e75-9ec8-9657fde44472
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/9acfb74c-1d5b-456b-a319-a95e999a06dd>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 514375fb-e4a2-43c8-8692-425d12bb49fd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a00e5d6d-d091-4a49-9a71-728a32c9ce24>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 507884d3-5786-4b43-8f4b-510337aa0b9f
+  Mesh: !<reference> f2e8e3f7-734e-499d-9d35-dbc83cca7dd7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ab8b9286-cc24-4224-8eed-96959fe74e8d>
+  PrefabRemaps:
+    []
+  Name: Points
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000002, y: 0.000022, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000001, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 805f1780-61f0-4cac-97f9-8667e575e8bf
+    - !<own> 065742d1-6233-43fc-987a-d3ae683f46a5
+    - !<own> 80114220-a7cd-4a93-8b87-0c1fea827160
+  Components:
+    []
+- !<SceneObject/cfcef122-e3fa-4178-ba2a-8366acfaafae>
+  PrefabRemaps:
+    []
+  Name: Bramble_03
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9acfb74c-1d5b-456b-a319-a95e999a06dd
+    - !<own> 812668eb-e22f-4a17-a4fa-dc7bed41d66f
+- !<SceneObject/f021593d-037d-464f-8185-8d841ad9ccb3>
+  PrefabRemaps:
+    []
+  Name: Bramble_03
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cfcef122-e3fa-4178-ba2a-8366acfaafae
+    - !<own> ab8b9286-cc24-4224-8eed-96959fe74e8d
+  Components:
+    - !<own> 4a6d7ca2-3ffe-4861-9608-cc0848fdb673
+- !<ObjectPrefab/f3107f1a-c420-4c0b-924f-147e82959a86>
+  PackagePath: ""
+  objects:
+    - !<own> f021593d-037d-464f-8185-8d841ad9ccb3
+  LazyLoading: false
+  RetainAssets: true

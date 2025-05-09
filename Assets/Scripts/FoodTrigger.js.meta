@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/701f632c-8ec7-4e49-836d-a4e8e318e7f3>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> fe47cd3d-e8ec-4852-b855-dd9a8fc1f960
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> fe47cd3d-e8ec-4852-b855-dd9a8fc1f960
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> faf0e673-02d4-4d22-a00b-994ff6f4bb45
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/faf0e673-02d4-4d22-a00b-994ff6f4bb45>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 44e287bd-d59a-4fdd-b308-690e6edbf671
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    foodTrigger: false
+    snakeComponent: false
+    snakeHead: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - foodTrigger: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      snakeComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      snakeHead: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

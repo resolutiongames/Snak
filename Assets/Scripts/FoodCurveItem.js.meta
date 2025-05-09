@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/1b107ff4-6df0-4d9f-a884-19fac0e35bed>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 42ebd564-aa8f-4d81-88f0-74dc56ffed71
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 733a0342-bc4d-4cb0-89a3-7dee9c66853c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/733a0342-bc4d-4cb0-89a3-7dee9c66853c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3f942264-1380-4ff7-9bae-4de9758b944a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    foodCollider: false
+    minimumSpawnDistance: false
+    scoreAmount: false
+    startScale: false
+    tweenName: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - tweenName: ""
+      foodCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      rotateTween: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scoreAmount: 0
+      minimumSpawnDistance: !<float> 0.000000
+      shouldMoveToRandomPosition: false
+      scaleTween: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      startScale: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+  ScriptTypes:
+    -
+      {}

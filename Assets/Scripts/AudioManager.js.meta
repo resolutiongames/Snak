@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/35815dde-422c-4735-97e5-dca3724968b1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4a649ec6-c8ff-4c92-9f3d-0ad212f0591a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4a649ec6-c8ff-4c92-9f3d-0ad212f0591a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1495a685-34e3-4b16-ad6e-36752e7d3aa1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1495a685-34e3-4b16-ad6e-36752e7d3aa1>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4d8202b4-1596-4a33-a48d-32ac158db404
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    backgroundMusic: false
+    eatSFX: false
+    eatSfxAudioTracks: false
+    gameMusic: false
+    menuMusic: false
+    newHighScoreSFX: false
+    obstacleHitSFX: false
+    obstacleHitSfxAudioTracks: false
+    popSFX: false
+    powerUpSFX: false
+    scoreSFX: false
+    scoreTweenSFX: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - eatAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      backgroundMusic: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      powerUpAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      eatSFV: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      powerUpSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      eatSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      obstacleHitSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      eatSFXs: !<reference.AudioComponent[]>
+        []
+      obstacleHitSFXs: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audiotracks: !<RequiredType.AudioTrack> 00000000-0000-0000-0000-000000000000
+      audioTracks: !<reference.AudioTrackAsset[]>
+        []
+      eatSfxList: !<reference.AudioTrackAsset[]>
+        []
+      obstacleHitSfxList: !<reference.AudioTrackAsset[]>
+        []
+      eatSfxAudioTracks: !<reference.AudioTrackAsset[]>
+        []
+      obstacleHitSfxAudioTracks: !<reference.AudioTrackAsset[]>
+        []
+      scoreSFX: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      newHighScoreSFX: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      scoreTweenSFX: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      gameMusic: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      menuMusic: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      popSFX: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

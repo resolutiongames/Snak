@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/8b68dbd6-9aa8-41be-9def-0ff3dcb28366>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 78f9d526-9888-4242-93e1-fd0c05e40519
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 78f9d526-9888-4242-93e1-fd0c05e40519
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ea3dfff8-754d-4933-904e-8955e7bd8115
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ea3dfff8-754d-4933-904e-8955e7bd8115>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1fa2adf8-525e-4e6a-b341-48bfca695014
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    container: false
+    gameManager: false
+    interactionVisuals: false
+    playButton: false
+    settingsButton: false
+    settingsMenu: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - container: !<MappingBased.ContainerFrame> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      settingsMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      playButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      settingsButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      interactionVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input ContainerFrame container
+    - // @input Component.ScriptComponent gameManager
+    - // @input SceneObject settingsMenu
+    - // @input SceneObject playButton
+    - // @input SceneObject settingsButton
+    - // @input SceneObject interactionVisuals

@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/e0e99175-9a53-4b72-ba5d-da9b7f3b6758>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d0eea48c-5781-44c9-abad-17b70bd0ef5a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d0eea48c-5781-44c9-abad-17b70bd0ef5a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> cafa5354-0883-42a3-b310-6c75881c3536
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/cafa5354-0883-42a3-b310-6c75881c3536>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0fdc5962-82b4-4ff3-a02f-b4d8b713a7a2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    ScorePrefix: false
+    TweenValue: false
+    maxScoreDuration: false
+    minScoreDuration: false
+    scoreText: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - TweenValue: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ScorePrefix: ""
+      highestScoreText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      ScoreText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      minScoreDuration: !<float> 0.000000
+      maxScoreDuration: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}

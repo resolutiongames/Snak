@@ -1,0 +1,168 @@
+- !<AssetImportMetadata/fdfcc0e7-4303-4bf7-9df1-eb8f76fe1781>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e9cd5081-d30b-4f89-b937-1d614a305b7b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e9cd5081-d30b-4f89-b937-1d614a305b7b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8e4e3bcd-2f2c-4075-ad62-1bba27689e34
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/76dca6f1-fb45-4713-8152-b36332b22ab9>
+  PrefabRemaps:
+    []
+  Name: Disc
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 4.000000, y: 4.000000, z: 4.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8ff5fce5-76cf-442d-934b-29d5d10a823e
+- !<SceneObject/77b5f27d-8318-476a-83b6-babee1a03cd9>
+  PrefabRemaps:
+    []
+  Name: UI Menu Button
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 76dca6f1-fb45-4713-8152-b36332b22ab9
+    - !<own> e81f14ec-2c10-40a0-b0e8-4c7426f41e1d
+  Components:
+    - !<own> d70b0faa-fd88-476e-b2fc-d16ad4ab5fd8
+    - !<own> 9672aad5-9bbc-45f4-bdf0-f939e87658f2
+- !<ObjectPrefabAssetData/8e4e3bcd-2f2c-4075-ad62-1bba27689e34>
+  SourceRemaps:
+    - 0ee35507-31bc-4725-b10e-6ec8f7b660f4: 8ff5fce5-76cf-442d-934b-29d5d10a823e
+    - 135ff1a6-da1c-4887-bd0d-91680521c07f: 9672aad5-9bbc-45f4-bdf0-f939e87658f2
+    - 67fb1eb0-623d-4e48-9196-b49d9770e90c: 76dca6f1-fb45-4713-8152-b36332b22ab9
+    - 8098afbb-ddf0-465e-b2de-a48722b0605e: 9c983e84-17f8-4028-99cf-1c65b9aa5660
+    - ae0647af-b165-42fa-941b-7e0f1ea5000c: d70b0faa-fd88-476e-b2fc-d16ad4ab5fd8
+    - b4c13f09-be5d-44a1-82d8-1bb73c4eae63: e81f14ec-2c10-40a0-b0e8-4c7426f41e1d
+    - c688833a-9357-45f3-b906-1b8a415beec4: 77b5f27d-8318-476a-83b6-babee1a03cd9
+    - e9cd5081-d30b-4f89-b937-1d614a305b7b: c38e7e48-1ef8-42aa-a34b-b6e7bc4e5247
+  SourceState: !<own> c38e7e48-1ef8-42aa-a34b-b6e7bc4e5247
+- !<RenderMeshVisual/8ff5fce5-76cf-442d-934b-29d5d10a823e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 254c5ebf-3296-4668-8a4c-95a890d2a7a9
+  Mesh: !<reference> 753896f9-771f-427c-8c05-23527f3e2cef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/9672aad5-9bbc-45f4-bdf0-f939e87658f2>
+  PrefabRemaps:
+    []
+  Name: UIButton
+  Enabled: true
+  ScriptAsset: !<reference> a341b99e-e63d-4951-88c4-41f888ec5dd2
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<Text3D/9c983e84-17f8-4028-99cf-1c65b9aa5660>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 43cffb02-a664-4fca-9b57-059df98d21ab
+  Text: Play
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.200000
+  ExtrudeDirection: Backwards
+  Font: !<reference> b573f1e4-024f-408e-a7ee-5faa33b05b9d
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<ObjectPrefab/c38e7e48-1ef8-42aa-a34b-b6e7bc4e5247>
+  PackagePath: ""
+  objects:
+    - !<own> 77b5f27d-8318-476a-83b6-babee1a03cd9
+  LazyLoading: false
+  RetainAssets: true
+- !<AudioComponent/d70b0faa-fd88-476e-b2fc-d16ad4ab5fd8>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/e81f14ec-2c10-40a0-b0e8-4c7426f41e1d>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.200000, z: 0.000000}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9c983e84-17f8-4028-99cf-1c65b9aa5660

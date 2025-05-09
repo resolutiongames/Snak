@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/1627e9eb-1295-402a-979e-afdd06f8c6dc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 698ecb72-0bd0-4ce5-a795-d98ed610fce8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 698ecb72-0bd0-4ce5-a795-d98ed610fce8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6632dfa4-d8bf-4332-b4f5-81fad63283c6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6632dfa4-d8bf-4332-b4f5-81fad63283c6>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 88ee6149-b634-4c82-ad70-a4ab05106fee
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    flickerColor: false
+    flickerDuration: false
+    flickerInterval: false
+    snake: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - snake: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      flickerDuration: !<float> 0.000000
+      flickerInterval: !<float> 0.000000
+      flickerColor: !<RequiredType.Color> 00000000-0000-0000-0000-000000000000
+      inputColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      hoveringColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      end: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}

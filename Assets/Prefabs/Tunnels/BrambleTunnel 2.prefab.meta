@@ -1,0 +1,123 @@
+- !<AssetImportMetadata/9bae9645-0705-4888-96b1-0facc4919c06>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 05962935-7061-4df1-9225-1980a54e0c29
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 05962935-7061-4df1-9225-1980a54e0c29
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 81e51328-54f2-435f-ba03-377f9b28da4c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/0f358cc4-3ffe-4ae7-9c3f-15d6b4c12e8e>
+  PackagePath: ""
+  objects:
+    - !<own> eca835c2-a4c5-4d96-b316-35f2bb0efa45
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/384615c1-35be-40ea-bb8b-f168e72d23b8>
+  PrefabRemaps:
+    []
+  Name: Points
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -17.100060, z: -36.579712}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/7ca9d2e6-da5c-4812-8e3b-5f1b9822d493>
+  PrefabRemaps:
+    []
+  Name: BramblePath_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.292732}
+    rotation: {x: -90.000008, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cb8eab26-6b0d-4e4a-973d-67f55d6b2cd2
+- !<ObjectPrefabAssetData/81e51328-54f2-435f-ba03-377f9b28da4c>
+  SourceRemaps:
+    - 05962935-7061-4df1-9225-1980a54e0c29: 0f358cc4-3ffe-4ae7-9c3f-15d6b4c12e8e
+    - 68716abe-2819-4fde-850c-b8195fe264e6: 85e1589e-28f4-4ac3-ad4a-6fd89717767e
+    - 7f675836-7efe-474d-9e0c-2c52aec62b03: 384615c1-35be-40ea-bb8b-f168e72d23b8
+    - bb9316d1-6958-47d1-a81f-744f9774bd69: cb8eab26-6b0d-4e4a-973d-67f55d6b2cd2
+    - c9693dd5-4ea4-46dd-9619-fcf7037311f6: 7ca9d2e6-da5c-4812-8e3b-5f1b9822d493
+    - cbf8dc54-5b06-4eec-a748-7cc5f672e6ce: eca835c2-a4c5-4d96-b316-35f2bb0efa45
+  SourceState: !<own> 0f358cc4-3ffe-4ae7-9c3f-15d6b4c12e8e
+- !<ScriptComponent/85e1589e-28f4-4ac3-ad4a-6fd89717767e>
+  PrefabRemaps:
+    []
+  Name: Obstacle
+  Enabled: true
+  ScriptAsset: !<reference> 885cf895-0a78-4147-93c1-cc1f318cfa35
+  ScriptInputsDefault:
+    pathPoints: true
+    radius: true
+    shouldSpawnInVolume: true
+    spawnVolume: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        []
+      foodPrefab: !<reference.ObjectPrefab> cc1c30a0-a195-4bc3-9acd-d6437a6b2bfb
+      foodCount: 40
+      spawnFoodOnAwake: true
+      radius: !<float> 5.000000
+      shouldSpawnInVolume: false
+      spawnVolume: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/cb8eab26-6b0d-4e4a-973d-67f55d6b2cd2>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> ec2ee9f0-5573-4f23-bbde-625a536f3c13
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/eca835c2-a4c5-4d96-b316-35f2bb0efa45>
+  PrefabRemaps:
+    []
+  Name: BrambleTunnel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 100.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7ca9d2e6-da5c-4812-8e3b-5f1b9822d493
+    - !<own> 384615c1-35be-40ea-bb8b-f168e72d23b8
+  Components:
+    - !<own> 85e1589e-28f4-4ac3-ad4a-6fd89717767e

@@ -1,0 +1,129 @@
+- !<AssetImportMetadata/686d1702-8458-4fd3-88b8-1a34683850d8>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 21b46036-90a1-492d-994e-40ddd92b1990
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 21b46036-90a1-492d-994e-40ddd92b1990
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 7082f2f0-69db-4a78-814d-02fb248bf80c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0341d776-3cd9-4f5f-b0a4-d8b3d07bc94d>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 80.000000, y: 80.000000, z: 80.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 12fbb339-4747-4807-9761-25745bf85554
+    - !<own> be261b6b-6598-4664-b152-60a297d50f00
+- !<RenderMeshVisual/12fbb339-4747-4807-9761-25745bf85554>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 21964642-af68-4b54-98d0-559e5a26d64c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/26e7507f-1299-46c8-a09c-4ca6fee61d87>
+  PrefabRemaps:
+    []
+  Name: Bramble_04
+  Enabled: true
+  Layers: 4
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0341d776-3cd9-4f5f-b0a4-d8b3d07bc94d
+  Components:
+    - !<own> cabe3e78-24d6-4567-b017-a0f3ae572949
+- !<ObjectPrefabAssetData/7082f2f0-69db-4a78-814d-02fb248bf80c>
+  SourceRemaps:
+    - 21b46036-90a1-492d-994e-40ddd92b1990: 7d96c2dc-ce5c-4f97-8094-4fdd74a0ce8d
+    - 28ca69cc-f107-4eae-a880-ebf4ddd7ed3f: 0341d776-3cd9-4f5f-b0a4-d8b3d07bc94d
+    - 526d6b37-3c10-4cb0-b52e-f42c5cc96482: cabe3e78-24d6-4567-b017-a0f3ae572949
+    - af2c7477-590b-4e22-a00d-17dc2f42e7e3: 26e7507f-1299-46c8-a09c-4ca6fee61d87
+    - ce6719ff-3175-4782-ad39-6fda563255dc: 12fbb339-4747-4807-9761-25745bf85554
+    - eb71f1c0-b796-458a-8462-cfb2f98677ba: be261b6b-6598-4664-b152-60a297d50f00
+  SourceState: !<own> 7d96c2dc-ce5c-4f97-8094-4fdd74a0ce8d
+- !<ObjectPrefab/7d96c2dc-ce5c-4f97-8094-4fdd74a0ce8d>
+  PackagePath: ""
+  objects:
+    - !<own> 26e7507f-1299-46c8-a09c-4ca6fee61d87
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/be261b6b-6598-4664-b152-60a297d50f00>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh>
+    Mesh: !<reference> e62f06d4-abca-4cdd-9ae2-2971a5672d5e
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 0.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/cabe3e78-24d6-4567-b017-a0f3ae572949>
+  PrefabRemaps:
+    []
+  Name: Obstacle
+  Enabled: true
+  ScriptAsset: !<reference> 885cf895-0a78-4147-93c1-cc1f318cfa35
+  ScriptInputsDefault:
+    pathPoints: true
+    foodCount: true
+    spawnFoodOnAwake: true
+    radius: true
+    shouldSpawnInVolume: true
+    spawnVolume: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        []
+      foodPrefab: !<reference.ObjectPrefab> cc1c30a0-a195-4bc3-9acd-d6437a6b2bfb
+      foodCount: 10
+      spawnFoodOnAwake: false
+      radius: !<float> 5.000000
+      shouldSpawnInVolume: false
+      spawnVolume: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}

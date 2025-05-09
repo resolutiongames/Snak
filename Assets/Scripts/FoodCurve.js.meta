@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/57cf83dc-408f-451b-a21f-1ca2949bf613>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 07bfe693-f550-4375-b5d1-376c07eec390
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 07bfe693-f550-4375-b5d1-376c07eec390
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5636251a-925a-4ccf-9cac-f971923d1200
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5636251a-925a-4ccf-9cac-f971923d1200>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 335a786d-1221-4672-b9b3-b439ed06e548
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    foodPrefabInstances: false
+    foodScripts: false
+    minimumSpawnDistance: false
+    numberOfSecondsToWaitBeforeChecking: false
+    scoreAmount: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - foodPrefab: !<reference.SceneObject[]>
+        []
+      foodPrefabInstances: !<reference.SceneObject[]>
+        []
+      foodScripts: !<reference.ScriptComponent[]>
+        []
+      minimumSpawnDistance: !<float> 0.000000
+      numberOfSecondsToWaitBeforeChecking: 0
+      scoreAmount: 0
+  ScriptTypes:
+    -
+      {}

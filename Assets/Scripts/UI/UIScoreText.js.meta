@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/b64f1bb1-d136-46b6-ba73-bf37545fca04>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ac4a4dd7-8099-4b77-82e9-5838c7f04c58
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ac4a4dd7-8099-4b77-82e9-5838c7f04c58
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> e4e36301-59fd-4a91-9d35-b1f9562af8b0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e4e36301-59fd-4a91-9d35-b1f9562af8b0>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b8dbab7b-3bf5-4d1e-a909-21c670c00f54
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    ScoreTextTweenValue: false
+    highestScoreTweenValue: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - highestScoreTweenValue: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      ScoreTextTweenValue: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

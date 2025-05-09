@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/31b93917-9a31-467b-a020-99346adc052b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 50fe031e-3038-420f-b960-88056cfca771
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 50fe031e-3038-420f-b960-88056cfca771
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bbe33890-ba8c-4a79-92dc-498404752c4f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bbe33890-ba8c-4a79-92dc-498404752c4f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 684f9cc9-13fb-43c0-8bbf-83a5ca6967d2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    clearStoreOnStart: false
+    defaultAudioValue: false
+    defaultScorePopUp: false
+    defaultWorldCenter: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - defaultWorldCenter: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      defaultAudioValue: !<float> 0.000000
+      clearStoreOnStart: false
+      defaultScorePopUp: false
+  ScriptTypes:
+    -
+      {}

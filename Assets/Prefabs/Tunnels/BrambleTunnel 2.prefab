@@ -1,0 +1,96 @@
+- !<ObjectPrefab/05962935-7061-4df1-9225-1980a54e0c29>
+  PackagePath: ""
+  objects:
+    - !<own> cbf8dc54-5b06-4eec-a748-7cc5f672e6ce
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/68716abe-2819-4fde-850c-b8195fe264e6>
+  PrefabRemaps:
+    []
+  Name: Obstacle
+  Enabled: true
+  ScriptAsset: !<reference> 885cf895-0a78-4147-93c1-cc1f318cfa35
+  ScriptInputsDefault:
+    pathPoints: true
+    spawnVolume: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pathPoints: !<reference.SceneObject[]>
+        []
+      foodPrefab: !<reference.ObjectPrefab> cc1c30a0-a195-4bc3-9acd-d6437a6b2bfb
+      foodCount: 40
+      spawnFoodOnAwake: true
+      radius: !<float> 90.000000
+      shouldSpawnInVolume: true
+      spawnVolume: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/7f675836-7efe-474d-9e0c-2c52aec62b03>
+  PrefabRemaps:
+    []
+  Name: Points
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -17.100060, z: -36.579712}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/bb9316d1-6958-47d1-a81f-744f9774bd69>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> dcf7dc5a-ac11-43ba-b921-0b5b46a5fb12
+  Mesh: !<reference> 04b5c5e7-95e4-49b1-8b1a-62dc94b6c601
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c9693dd5-4ea4-46dd-9619-fcf7037311f6>
+  PrefabRemaps:
+    []
+  Name: BramblePath_01
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -15.292732}
+    rotation: {x: -90.000008, y: 0.000000, z: 0.000000}
+    scale: {x: 60.000000, y: 60.000000, z: 60.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bb9316d1-6958-47d1-a81f-744f9774bd69
+- !<SceneObject/cbf8dc54-5b06-4eec-a748-7cc5f672e6ce>
+  PrefabRemaps:
+    []
+  Name: BrambleTunnel
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 100.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c9693dd5-4ea4-46dd-9619-fcf7037311f6
+    - !<own> 7f675836-7efe-474d-9e0c-2c52aec62b03
+  Components:
+    - !<own> 68716abe-2819-4fde-850c-b8195fe264e6

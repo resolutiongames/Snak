@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/f8521c73-0ec1-4649-a499-72ff3874b99b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4481e7e2-aa72-44d1-bd29-7e172f0ea926
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4481e7e2-aa72-44d1-bd29-7e172f0ea926
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7aac8525-c31e-4ac4-8b67-723b6e512855
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7aac8525-c31e-4ac4-8b67-723b6e512855>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ff299128-9d4d-415f-9e68-c7a6da09b2e0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    PrefabsParent: false
+    maxInstances: false
+    minimumSpawnDistance: false
+    speedPowerUp: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - snake: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      food: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      forwardProgression: !<float> 0.000000
+      foodPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      foodPrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      maxInstances: 256
+      minimumSpawnDistance: !<float> 0.000000
+      speedPowerUp: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      PrefabsParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      obstacleInstancesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      powerUpInstancesParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

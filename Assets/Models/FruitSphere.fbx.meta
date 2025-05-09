@@ -1,0 +1,105 @@
+- !<AssetImportMetadata/c4291f0f-4810-4e95-a640-7efbc76d64b4>
+  ImportedAssetIds:
+    7a0dd5cd69df73fa: !<reference> 00efdac3-a741-4c80-9331-ddf929a22409
+    Meshes/FruitSphere: !<reference> 1542d6f4-a5bb-451c-a92b-29839b6cc4eb
+    Scene: !<reference> 0eed7249-db2b-4eb2-ab01-d2eee1382b83
+    ac5447f02aafc222: !<reference> 31f4bce1-2aba-46ff-b11e-c976fc2d2745
+    ae14d973236e73f7: !<reference> a5f2ccd3-d15e-4df2-a868-b7db370262c6
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 0eed7249-db2b-4eb2-ab01-d2eee1382b83
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> e55a75e3-d3b8-4bda-8a89-0838ec020b84
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/28be80bc-f6c8-48ef-8f23-fd25b493f5a8>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 1542d6f4-a5bb-451c-a92b-29839b6cc4eb
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/43543aba-ae75-49ab-8697-43637711fd7b>
+  PackagePath: ""
+  objects:
+    - !<own> bc9b314e-e18e-4852-9a42-81a524516bfa
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/bc9b314e-e18e-4852-9a42-81a524516bfa>
+  PrefabRemaps:
+    []
+  Name: FruitSphere
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f5574edd-c8f5-48e0-a9ac-6dc75cbf5129
+  Components:
+    []
+- !<ObjectPrefabAssetData/e55a75e3-d3b8-4bda-8a89-0838ec020b84>
+  SourceRemaps:
+    - 00efdac3-a741-4c80-9331-ddf929a22409: bc9b314e-e18e-4852-9a42-81a524516bfa
+    - 0eed7249-db2b-4eb2-ab01-d2eee1382b83: 43543aba-ae75-49ab-8697-43637711fd7b
+    - 31f4bce1-2aba-46ff-b11e-c976fc2d2745: f5574edd-c8f5-48e0-a9ac-6dc75cbf5129
+    - a5f2ccd3-d15e-4df2-a868-b7db370262c6: 28be80bc-f6c8-48ef-8f23-fd25b493f5a8
+  SourceState: !<own> 43543aba-ae75-49ab-8697-43637711fd7b
+- !<SceneObject/f5574edd-c8f5-48e0-a9ac-6dc75cbf5129>
+  PrefabRemaps:
+    []
+  Name: FruitSphere
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 28be80bc-f6c8-48ef-8f23-fd25b493f5a8
